@@ -1,7 +1,7 @@
 #include<stdio.h>
 class Node{
 public:
-	int var;
+	int val;
 	Node* left;
 	Node* right;
 	Node* parent;
@@ -39,7 +39,7 @@ int main(){
 	node5->parent=node3;
 	node6->parent=node3;
 	Node* result=findFront(node3);
-	printf("%d\n",result->var);
+	printf("%d\n",result->val);
 }
 	
 	
